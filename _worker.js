@@ -823,15 +823,15 @@ const generateRemark = (index, port) => {
     switch (index) {
 	case 0:	    
         case 1:
-            remark = `💦VT网云`;
+            remark = `💦VT网云${index + 1}`;
             break; 
 	case 2:	    
         case 3:
-            remark = `💦网云v4`;
+            remark = `💦网云v4.${index - 1}`;
             break;
 	case 4:
         case 5:
-            remark = `💦网云v6`;
+            remark = `💦网云v6.${index - 3}`;
             break;
         default:
             remark = `💦网云优选`;
