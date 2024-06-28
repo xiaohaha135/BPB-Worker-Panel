@@ -821,12 +821,15 @@ const getNormalConfigs = async (env, hostName, client) => {
 const generateRemark = (index, port) => {
     let remark = '';
     switch (index) {
+	case 0:	    
         case 1:
             remark = `💦VT网云`;
             break; 
+	case 2:	    
         case 3:
             remark = `💦网云v4`;
             break;
+	case 4:
         case 5:
             remark = `💦网云v6`;
             break;
