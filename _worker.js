@@ -9,8 +9,8 @@ import { connect } from 'cloudflare:sockets';
 // https://www.uuidgenerator.net/
 let userID = '1bd3e7b3-fb9f-410d-a8e1-cdfeff8f15de';
 
-// https://www.nslookup.io/domains/cdn.xn--b6gac.eu.org/dns-records/
-// https://www.nslookup.io/domains/cdn-all.xn--b6gac.eu.org/dns-records/
+// https://www.nslookup.io/domains/c.cn5.us.kg/dns-records/
+// https://www.nslookup.io/domains/c.cn5.us.kg/dns-records/
 const proxyIPs= ['c.cn5.us.kg'];
 
 const defaultHttpPorts = ['80', '8080', '2052', '2082', '2086', '2095', '8880'];
