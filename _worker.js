@@ -790,10 +790,10 @@ const getNormalConfigs = async (env, hostName, client) => {
     const resolved = await resolveDNS(hostName);
     const Addresses = [
 	'www.speedtest.net',
-        'm.vi5.us.kg',
-        'h.vi5.us.kg',
-	'd.vi5.us.kg',
-        's.vi5.us.kg',
+        'm.zm5.cloudns.org',
+        'h.zm5.cloudns.org',
+	'd.zm5.cloudns.org',
+        's.zm5.cloudns.org',
         ...(cleanIPs ? cleanIPs.split(',') : [])
     ];
 
