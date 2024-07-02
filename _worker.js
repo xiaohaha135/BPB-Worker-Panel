@@ -821,15 +821,6 @@ const getNormalConfigs = async (env, hostName, client) => {
 const generateRemark = (index, port) => {
     let remark = '';
     switch (index) {
-        case 0:
-            remark = `🏝VT网云-${index + 1}🥂`;
-            break;
-        case 2:
-            remark = `🏝IPv4-${index - 1}🥂`;
-            break;
-        case 4:
-            remark = `🏝IPv6-${index - 3}🥂`;
-            break;
         default:
             remark = `🏝优选域名-${index - 5}🥂`;
             break;
