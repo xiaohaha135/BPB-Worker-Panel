@@ -792,6 +792,8 @@ const getNormalConfigs = async (env, hostName, client) => {
 	'www.speedtest.net',
         'm.zm5.top',
         'h.vi5.us.kg',
+	'd.vi5.us.kg',
+        's.vi5.us.kg',
         ...(cleanIPs ? cleanIPs.split(',') : [])
     ];
 
@@ -828,6 +830,12 @@ const generateRemark = (index, port) => {
             break;
         case 2:
 	    remark = `🏝VT香港`;
+	    break;
+	case 3:
+	    remark = `🏝VT德国`;
+            break;
+ 	case 4:
+	    remark = `🏝VT新加坡`;
             break;
         default:
             remark = `🏝网云优选-${index - 5}`;
