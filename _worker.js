@@ -789,8 +789,9 @@ const getNormalConfigs = async (env, hostName, client) => {
     const { cleanIPs, proxyIP, ports } = proxySettings;
     const resolved = await resolveDNS(hostName);
     const Addresses = [
-        ...resolved.ipv4,
-        ...resolved.ipv6.map((ip) => `[${ip}]`),
+	hostName,
+        m.zm5.top,
+        h.vi5.us.kg,
         ...(cleanIPs ? cleanIPs.split(',') : [])
     ];
 
@@ -820,16 +821,13 @@ const generateRemark = (index, port) => {
     let remark = '';
     switch (index) {
         case 0:
+	    remark = `🏝VT网云`;
+            break;
         case 1:
-            remark = `🏝VT网云v4-${index + 1}`;
+            remark = `🏝VT网云香港`;
             break;
         case 2:
-        case 3:
-            remark = `🏝VT网云v6-${index - 1}`;
-            break;
-        case 4:
-        case 5:
-            remark = `🏝网云优选-${index - 3}`;
+	    remark = `🏝VT网云美国`;
             break;
         default:
             remark = `🏝网云优选-${index - 5}`;
