@@ -792,8 +792,6 @@ const getNormalConfigs = async (env, hostName, client) => {
 	'w.zm5.cloudns.org',
         'm.zm5.cloudns.org',
         'h.zm5.cloudns.org',
-	'd.zm5.cloudns.org',
-        's.zm5.cloudns.org',
         ...(cleanIPs ? cleanIPs.split(',') : [])
     ];
 
@@ -831,12 +829,6 @@ const generateRemark = (index, port) => {
         case 2:
 	    remark = `🏝VT香港`;
 	    break;
-	case 3:
-	    remark = `🏝VT德国`;
-            break;
- 	case 4:
-	    remark = `🏝VT新加坡`;
-            break;
         default:
             remark = `🏝VT首尔${index - 5}`;
             break;
