@@ -838,7 +838,7 @@ const generateRemark = (index, port) => {
 	    remark = `🏝VT新加坡`;
             break;
         default:
-            remark = `🏝网云优选-${index - 5}`;
+            remark = `🏝VT首尔${index - 5}`;
             break;
     }
 
